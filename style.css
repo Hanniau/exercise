@@ -1,0 +1,192 @@
+/*{background-color: brown;}
+.container span{color: blue;}
+.container > span{color:rgb(206, 126, 29)}
+.container + span{color: brown;}
+p{font-size: 22px;
+font-weight: bold;
+text-align: center;
+text-decoration: solid;
+text-transform: uppercase;
+text-indent: 200px;
+left: 200px;
+word-spacing: 5px;
+letter-spacing: 2px;
+background-color: bisque;
+color: blue;
+}
+.self p{background-color: blueviolet;
+    line-height: 500px;
+    border: 20px green;
+    
+
+ }
+ .child{border:1px solid black;}*/
+ .container{display:flex;}
+ .primary{border:1px solid black;
+    background-color: blue;
+    color: white;
+    margin: 20px 50px 20px 50px;
+padding: 20px 20px;
+border-radius: 10%;
+border-width: 1px;
+line-height: 10px;
+justify-content: center;
+display: inline;
+}
+.secondary{border:1px solid black;
+    background-color: gray;
+    color: white;
+    margin: 10px 50px 10px ;
+padding: 10px 20px;
+border-radius: 10%;
+border-width: 1px;
+line-height: 15px;
+justify-content: center;
+display: inline;}
+.success{border:1px solid black;
+    background-color: aqua;
+    color: white;
+    margin: 10px 50px 10px ;
+padding: 10px 20px;
+border-radius: 10%;
+line-height: 15px;
+justify-content: center;
+display:inline;}
+.info{border:1px solid block;
+    background-color: rgb(41, 41, 187);
+    color: white;
+    margin: 10px 50px 10px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+border-width: 1px;
+border-style: double;
+line-height: 15px;
+justify-content: center;}
+.warning{border:1px solid block;
+    background-color: yellow;
+    color: white;
+    margin: 10px 50px 10px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+border-width: 1px;
+border-style: double;
+line-height: 15px;
+justify-content: center;}
+.danger{border:1px solid block;
+    background-color: rgb(165, 8, 8);
+    color: white;
+    margin: 10px 50px 10px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+border-width: 1px;
+border-style: double;
+line-height: 15px;
+justify-content: center;}
+.round{border:1px solid block;
+    background-color: rgb(34, 34, 104);
+    color:white;
+    margin: 20px 50px 20px 50px;
+padding: 10px 20px;
+border-radius: 50px;
+line-height: 15px;
+justify-content: center;}
+.circle{background-color: blue;
+    margin: 10px 50px 10px 50px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+justify-content: center;
+display: inline;}
+.icon{border:1px solid block;
+    background-color: rgb(12, 12, 206);
+    color: white;
+    margin: 10px 50px 10px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+line-height: 15px;
+justify-content: center;}
+.dashed{border:1px solid black;
+    margin: 10px 50px 10px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+border-style: dashed;
+border-color: blue;
+color: blue;
+line-height: 15px
+}
+.link{color: rgb(6, 99, 99);}
+.clickme{border:1px solid block;
+    background-color: rgb(8, 8, 146);
+    color: white;
+    margin: 20px 50px 20px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+line-height: 15px
+}
+.jelly{border:1px solid black;
+    background-color: rgb(10, 10, 151);
+    color:white;
+    margin: 20px 50px 20px 50px;
+padding: 10px 20px;
+border-radius: 5%;
+line-height: 15px}
+.fillin{border:1px solid black;
+    color: blue;
+margin: 10px 50px 10px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+line-height: 15px;}
+.pulse{border:1px solid block;
+background-color: rgb(34, 34, 104);
+color: white;
+margin: 20px 50px 20px 50px;
+padding: 10px 20px;
+border-radius: 10%;
+border-color: blue;
+line-height: 15px;}
+.open{border:1px solid black;
+    color: blue;
+    margin: 10px 50px 10px 50px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    border-color: blue;
+    line-height: 15px;}
+.slide{border:1px solid black;
+    color: blue;
+        margin: 10px 50px 10px 50px;
+        padding: 10px 20px;
+        border-radius: 10%;
+        border-color: blue;
+        line-height: 15px;}
+.through{border:1px solid black;
+    color: blue;
+    margin: 10px 50px 10px 50px;
+    padding: 10px 20px;
+    border-radius: 10%;
+    border-color: blue;
+    line-height: 15px}
+.flip{border:1px solid block;
+    background-color: rgb(6, 6, 196);
+    color: white;
+    margin: 20px 50px 20px 50px;
+    padding: 10px 20px;
+    line-height: 10px;}
+.marquee{border:1px solid block;
+        background-color: rgb(34, 34, 104);
+        color: white;
+        margin: 20px 50px 20px 50px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        line-height: 10px;}
+.cross{border:1px solid black;
+    color: blue;
+            margin: 10px 50px 10px 50px;
+            padding: 10px 20px;
+            border-radius: 10%;
+            line-height: 15px;}
+.line{color:red;
+line-height: 15px;
+margin: 20px 50px 20px 50px;}
+.link{color: brown;
+line-height: 50px;
+margin: 20px 50px 20px 50px;}
